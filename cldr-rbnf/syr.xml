@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
+<!--
+Copyright © 1991-2022 Unicode, Inc.
+CLDR data files are interpreted according to the LDML specification (http://unicode.org/reports/tr35/)
+For terms of use, see http://www.unicode.org/copyright.html
+-->
+<ldml>
+    <identity>
+        <version number="$Revision$"/>
+        <language type="ar"/>
+    </identity>
+    <rbnf>
+        <rulesetGrouping type="SpelloutRules">
+            <ruleset type="spellout-numbering-year">
+                <rbnfrule value="x.x">=0.0=;</rbnfrule>
+                <rbnfrule value="0">=%spellout-numbering=;</rbnfrule>
+            </ruleset>
+            <ruleset type="spellout-numbering">
+                <rbnfrule value="-x">ܡܪܝܡܢܐ →→;</rbnfrule>
+                <rbnfrule value="x.x">←← ܢܘܩܙܐ →→;</rbnfrule>
+                <rbnfrule value="0">ܣܦܝܩܐ;</rbnfrule>
+                <rbnfrule value="1">ܚܕ;</rbnfrule>
+                <rbnfrule value="2">ܬܪܝܢ;</rbnfrule>
+                <rbnfrule value="3">ܬܠܬܐ;</rbnfrule>
+                <rbnfrule value="4">ܐܪܒܥܐ;</rbnfrule>
+                <rbnfrule value="5">ܚܡܫܐ;</rbnfrule>
+                <rbnfrule value="6">ܐܫܬܐ;</rbnfrule>
+                <rbnfrule value="7">ܫܒܥܐ;</rbnfrule>
+                <rbnfrule value="8">ܬܡܢܝܐ;</rbnfrule>
+                <rbnfrule value="9">ܬܫܥܐ;</rbnfrule>
+                <rbnfrule value="10">ܥܣܪܐ;</rbnfrule>
+                <rbnfrule value="11">ܚܕܥܣܪ;</rbnfrule>
+                <rbnfrule value="12">ܬܪܥܣܪ;</rbnfrule>
+                <rbnfrule value="13">ܬܠܬܥܣܪ;</rbnfrule>
+                <rbnfrule value="14">ܐܪܒܥܣܪ;</rbnfrule>
+                <rbnfrule value="15">ܚܡܫܥܣܪ;</rbnfrule>
+                <rbnfrule value="16">ܐܫܬܥܣܪ;</rbnfrule>
+                <rbnfrule value="17">ܫܒܥܣܪ;</rbnfrule>
+                <rbnfrule value="18">ܬܡܢܥܣܪ;</rbnfrule>
+                <rbnfrule value="19">ܬܫܥܣܪ;</rbnfrule>
+                <rbnfrule value="20">[→%spellout-numbering→ ܘ]ܥܣܪܝܢ;</rbnfrule>
+                <rbnfrule value="30">[→%spellout-numbering→ ܘ]ܬܠܬܝܢ;</rbnfrule>
+                <rbnfrule value="40">[→%spellout-numbering→ ܘ]ܐܪܒܥܝܢ;</rbnfrule>
+                <rbnfrule value="50">[→%spellout-numbering→ ܘ]ܚܡܫܝܢ;</rbnfrule>
+                <rbnfrule value="60">[→%spellout-numbering→ ܘ]ܐܫܬܝܢ;</rbnfrule>
+                <rbnfrule value="70">[→%spellout-numbering→ ܘ]ܫܒܥܝܢ;</rbnfrule>
+                <rbnfrule value="80">[→%spellout-numbering→ ܘ]ܬܡܢܝܢ;</rbnfrule>
+                <rbnfrule value="90">[→%spellout-numbering→ ܘ]ܬܫܥܝܢ;</rbnfrule>
+                <rbnfrule value="100">ܡܐܐ[ ܘ→%spellout-numbering→];</rbnfrule>
+                <rbnfrule value="200">ܬܪܝܡܐܐ[ ܘ→%spellout-numbering→];</rbnfrule>
+                <rbnfrule value="300">←%spellout-numbering← ܬܠܬܡܐܐ[ ܘ→%spellout-numbering→];</rbnfrule>
+                <rbnfrule value="1000">ܐܠܦܐ[ ܘ→%spellout-numbering→];</rbnfrule>
+                <rbnfrule value="2000">ܬܪܝܢ ܐܠܦ̈ܐ[ ܘ→%spellout-numbering→];</rbnfrule>
+                <rbnfrule value="3000">←%spellout-numbering← ܬܠܬܐ ܐܠܦ̈ܐ[ ܘ→%spellout-numbering→];</rbnfrule>
+                <rbnfrule value="11000" radix="1000">←%%spellout-numbering-m← ܐܠܦ̈ܐ[ ܘ→%spellout-numbering→];</rbnfrule>
+                <rbnfrule value="1000000">ܡܠܝܘܢ[ ܘ→%spellout-numbering→];</rbnfrule>
+                <rbnfrule value="2000000">←%%spellout-numbering-m← ܡܠܝܘܢ̈ܐ[ ܘ→%spellout-numbering→];</rbnfrule>
+                <rbnfrule value="1000000000">ܒܠܝܘܢ[ ܘ→%spellout-numbering→];</rbnfrule>
+                <rbnfrule value="2000000000">←%%spellout-numbering-m← ܒܠܝܘܢ̈ܐ[ ܘ→%spellout-numbering→];</rbnfrule>
+                <rbnfrule value="1000000000000">ܬܪܠܝܘܢ[ ܘ→%spellout-numbering→];</rbnfrule>
+                <rbnfrule value="2000000000000">←%%spellout-numbering-m← ܬܪܠܝܘܢ̈ܐ[ ܘ→%spellout-numbering→];</rbnfrule>
+                <rbnfrule value="1000000000000000">ܟܒܐܕܪܠܝܘܢ[ ܘ→%spellout-numbering→];</rbnfrule>
+                <rbnfrule value="2000000000000000">←%%spellout-numbering-m← ܟܒܐܕܪܠܝܘܢ̈ܐ[ ܘ→%spellout-numbering→];</rbnfrule>
+                <rbnfrule value="1000000000000000000">=#,##0=;</rbnfrule>
+            </ruleset>
+            <ruleset type="spellout-cardinal-feminine">
+                <rbnfrule value="-x">ܡܪܝܡܢܝܬܐ →→;</rbnfrule>
+                <rbnfrule value="x.x">←← ܢܘܩܙܬܐ →→;</rbnfrule>
+                <rbnfrule value="0">ܣܦܝܩܬܐ;</rbnfrule>
+                <rbnfrule value="1">ܚܕܐ;</rbnfrule>
+                <rbnfrule value="2">ܬܪܬܝܢ;</rbnfrule>
+                <rbnfrule value="3">ܬܠܬ;</rbnfrule>
+                <rbnfrule value="4">ܐܪܒܥ;</rbnfrule>
+                <rbnfrule value="5">ܚܡܫ;</rbnfrule>
+                <rbnfrule value="6">ܐܫܬ;</rbnfrule>
+                <rbnfrule value="7">ܫܒܥ;</rbnfrule>
+                <rbnfrule value="8">ܬܡܢܐ;</rbnfrule>
+                <rbnfrule value="9">ܬܫܥ;</rbnfrule>
+                <rbnfrule value="10">ܥܣܪ;</rbnfrule>
+                <rbnfrule value="11">ܚܕܥܣܪܐ;</rbnfrule>
+                <rbnfrule value="12">ܬܪܬܥܣܪܐ;</rbnfrule>
+                <rbnfrule value="11">ܚܕܥܣܪܐ;</rbnfrule>
+                <rbnfrule value="12">ܬܪܥܣܪ;</rbnfrule>
+                <rbnfrule value="13">ܬܠܬܥܣܪܐ;</rbnfrule>
+                <rbnfrule value="14">ܐܪܒܥܣܪܐ;</rbnfrule>
+                <rbnfrule value="15">ܚܡܫܥܣܪܐ;</rbnfrule>
+                <rbnfrule value="16">ܐܫܬܥܣܪܐ;</rbnfrule>
+                <rbnfrule value="17">ܫܒܥܣܪܐ;</rbnfrule>
+                <rbnfrule value="18">ܬܡܢܥܣܪܐ;</rbnfrule>
+                <rbnfrule value="19">ܬܫܥܣܪܐ;</rbnfrule>
+                <rbnfrule value="20">[→%spellout-numbering→ ܘ]ܥܣܪܝܢ;</rbnfrule>
+                <rbnfrule value="30">[→%spellout-numbering→ ܘ]ܬܠܬܝܢ;</rbnfrule>
+                <rbnfrule value="40">[→%spellout-numbering→ ܘ]ܐܪܒܥܝܢ;</rbnfrule>
+                <rbnfrule value="50">[→%spellout-numbering→ ܘ]ܚܡܫܝܢ;</rbnfrule>
+                <rbnfrule value="60">[→%spellout-numbering→ ܘ]ܐܫܬܝܢ;</rbnfrule>
+                <rbnfrule value="70">[→%spellout-numbering→ ܘ]ܫܒܥܝܢ;</rbnfrule>
+                <rbnfrule value="80">[→%spellout-numbering→ ܘ]ܬܡܢܝܢ;</rbnfrule>
+                <rbnfrule value="90">[→%spellout-numbering→ ܘ]ܬܫܥܝܢ;</rbnfrule>
+                <rbnfrule value="100">ܡܐܐ[ ܘ→%spellout-numbering→];</rbnfrule>
+                <rbnfrule value="200">ܬܪܝܡܐܐ[ ܘ→%spellout-numbering→];</rbnfrule>
+                <rbnfrule value="300">←%spellout-numbering← ܬܠܬܡܐܐ[ ܘ→%spellout-numbering→];</rbnfrule>
+                <rbnfrule value="1000">ܐܠܦܐ[ ܘ→%spellout-numbering→];</rbnfrule>
+                <rbnfrule value="2000">ܬܪܝܢ ܐܠܦ̈ܐ[ ܘ→%spellout-numbering→];</rbnfrule>
+                <rbnfrule value="3000">←%spellout-numbering← ܬܠܬܐ ܐܠܦ̈ܐ[ ܘ→%spellout-numbering→];</rbnfrule>
+                <rbnfrule value="11000" radix="1000">←%%spellout-numbering-m← ܐܠܦ̈ܐ[ ܘ→%spellout-numbering→];</rbnfrule>
+                <rbnfrule value="1000000">ܡܠܝܘܢ[ ܘ→%spellout-numbering→];</rbnfrule>
+                <rbnfrule value="2000000">←%%spellout-numbering-m← ܡܠܝܘܢ̈ܐ[ ܘ→%spellout-numbering→];</rbnfrule>
+                <rbnfrule value="1000000000">ܒܠܝܘܢ[ ܘ→%spellout-numbering→];</rbnfrule>
+                <rbnfrule value="2000000000">←%%spellout-numbering-m← ܒܠܝܘܢ̈ܐ[ ܘ→%spellout-numbering→];</rbnfrule>
+                <rbnfrule value="1000000000000">ܬܪܠܝܘܢ[ ܘ→%spellout-numbering→];</rbnfrule>
+                <rbnfrule value="2000000000000">←%%spellout-numbering-m← ܬܪܠܝܘܢ̈ܐ[ ܘ→%spellout-numbering→];</rbnfrule>
+                <rbnfrule value="1000000000000000">ܟܒܐܕܪܠܝܘܢ[ ܘ→%spellout-numbering→];</rbnfrule>
+                <rbnfrule value="2000000000000000">←%%spellout-numbering-m← ܟܒܐܕܪܠܝܘܢ̈ܐ[ ܘ→%spellout-numbering→];</rbnfrule>
+                <rbnfrule value="1000000000000000000">=#,##0=;</rbnfrule>
+            </ruleset>
+            <ruleset type="spellout-numbering-m" access="private">
+                <rbnfrule value="0">ܣܦܝܩܐ;</rbnfrule>
+                <rbnfrule value="1">ܚܕ;</rbnfrule>
+                <rbnfrule value="2">ܬܪܝܢ;</rbnfrule>
+                <rbnfrule value="3">ܬܠܬܐ;</rbnfrule>
+                <rbnfrule value="4">ܐܪܒܥܐ;</rbnfrule>
+                <rbnfrule value="5">ܚܡܫܐ;</rbnfrule>
+                <rbnfrule value="6">ܐܫܬܐ;</rbnfrule>
+                <rbnfrule value="7">ܫܒܥܐ;</rbnfrule>
+                <rbnfrule value="8">ܬܡܢܝܐ;</rbnfrule>
+                <rbnfrule value="9">ܬܫܥܐ;</rbnfrule>
+                <rbnfrule value="10">ܥܣܪܐ;</rbnfrule>
+                <rbnfrule value="11">ܚܕܥܣܪ;</rbnfrule>
+                <rbnfrule value="12">ܬܪܥܣܪ;</rbnfrule>
+                <rbnfrule value="13">ܬܠܬܥܣܪ;</rbnfrule>
+                <rbnfrule value="14">ܐܪܒܥܣܪ;</rbnfrule>
+                <rbnfrule value="15">ܚܡܫܥܣܪ;</rbnfrule>
+                <rbnfrule value="16">ܐܫܬܥܣܪ;</rbnfrule>
+                <rbnfrule value="17">ܫܒܥܣܪ;</rbnfrule>
+                <rbnfrule value="18">ܬܡܢܥܣܪ;</rbnfrule>
+                <rbnfrule value="19">ܬܫܥܣܪ;</rbnfrule>
+                <rbnfrule value="20">[→%%spellout-numbering-m→ ܘ]ܥܣܪܝܢ;</rbnfrule>
+                <rbnfrule value="30">[→%%spellout-numbering-m→ ܘ]ܬܠܬܝܢ;</rbnfrule>
+                <rbnfrule value="40">[→%%spellout-numbering-m→ ܘ]ܐܪܒܥܝܢ;</rbnfrule>
+                <rbnfrule value="50">[→%%spellout-numbering-m→ ܘ]ܚܡܫܝܢ;</rbnfrule>
+                <rbnfrule value="60">[→%%spellout-numbering-m→ ܘ]ܐܫܬܝܢ;</rbnfrule>
+                <rbnfrule value="70">[→%%spellout-numbering-m→ ܘ]ܫܒܥܝܢ;</rbnfrule>
+                <rbnfrule value="80">[→%%spellout-numbering-m→ ܘ]ܬܡܢܝܢ;</rbnfrule>
+                <rbnfrule value="90">[→%%spellout-numbering-m→ ܘ]ܬܫܥܝܢ;</rbnfrule>
+                <rbnfrule value="100">ܡܐܐ[ ܘ→%%spellout-numbering-m→];</rbnfrule>                
+                <rbnfrule value="200">ܬܪܝܡܐܐ[ ܘ→%%spellout-numbering-m→];</rbnfrule>
+                <rbnfrule value="300">←%spellout-numbering← ܬܠܬܡܐܐ[ ܘ→%%spellout-numbering-m→];</rbnfrule>
+                <rbnfrule value="1000">ܐܠܦܐ[ ܘ→%%spellout-numbering-m→];</rbnfrule>
+                <rbnfrule value="2000">ܬܪܝܢ ܐܠܦ̈ܐ[ ܘ→%%spellout-numbering-m→];</rbnfrule>
+                <rbnfrule value="3000">←%spellout-numbering← ܬܠܬܐ ܐܠܦ̈ܐ[ ܘ→%%spellout-numbering-m→];</rbnfrule>
+                <rbnfrule value="11000" radix="1000">←%%spellout-numbering-m← ܐܠܦ̈ܐ[ ܘ→%%spellout-numbering-m→];</rbnfrule>
+                <rbnfrule value="1000000">ܡܠܝܘܢ[ ܘ→%%spellout-numbering-m→];</rbnfrule>
+                <rbnfrule value="2000000">←%%spellout-numbering-m← ܡܠܝܘܢ̈ܐ[ ܘ→%%spellout-numbering-m→];</rbnfrule>
+                <rbnfrule value="1000000000">ܒܠܝܘܢ[ ܘ→%%spellout-numbering-m→];</rbnfrule>
+                <rbnfrule value="2000000000">←%%spellout-numbering-m← ܒܠܝܘܢ̈ܐ[ ܘ→%%spellout-numbering-m→];</rbnfrule>
+                <rbnfrule value="1000000000000">ܬܪܠܝܘܢ[ ܘ→%%spellout-numbering-m→];</rbnfrule>
+                <rbnfrule value="2000000000000">←%%spellout-numbering-m← ܬܪܠܝܘܢ̈ܐ[ ܘ→%%spellout-numbering-m→];</rbnfrule>
+                <rbnfrule value="1000000000000000">ܟܒܐܕܪܠܝܘܢ[ ܘ→%%spellout-numbering-m→];</rbnfrule>
+                <rbnfrule value="2000000000000000">←%%spellout-numbering-m← ܟܒܐܕܪܠܝܘܢ̈ܐ[ ܘ→%%spellout-numbering-m→];</rbnfrule>
+                <rbnfrule value="1000000000000000000">=#,##0=;</rbnfrule>
+            </ruleset>
+            <ruleset type="spellout-cardinal-masculine">
+                <rbnfrule value="-x">ܡܪܝܡܢܐ →→;</rbnfrule>
+                <rbnfrule value="x.x">←%%spellout-numbering-m←← ܢܘܩܙܐ →→;</rbnfrule>
+                <rbnfrule value="0">ܣܦܝܩܐ;</rbnfrule>
+                <rbnfrule value="1">ܚܕ;</rbnfrule>
+                <rbnfrule value="2">ܬܪܝܢ;</rbnfrule>
+                <rbnfrule value="3">ܬܠܬܐ;</rbnfrule>
+                <rbnfrule value="4">ܐܪܒܥܐ;</rbnfrule>
+                <rbnfrule value="5">ܚܡܫܐ;</rbnfrule>
+                <rbnfrule value="6">ܐܫܬܐ;</rbnfrule>
+                <rbnfrule value="7">ܫܒܥܐ;</rbnfrule>
+                <rbnfrule value="8">ܬܡܢܝܐ;</rbnfrule>
+                <rbnfrule value="9">ܬܫܥܐ;</rbnfrule>
+                <rbnfrule value="10">ܥܣܪܐ;</rbnfrule>
+                <rbnfrule value="11">ܚܕܥܣܪ;</rbnfrule>
+                <rbnfrule value="12">ܬܪܥܣܪ;</rbnfrule>
+                <rbnfrule value="13">ܬܠܬܥܣܪ;</rbnfrule>
+                <rbnfrule value="14">ܐܪܒܥܣܪ;</rbnfrule>
+                <rbnfrule value="15">ܚܡܫܥܣܪ;</rbnfrule>
+                <rbnfrule value="16">ܐܫܬܥܣܪ;</rbnfrule>
+                <rbnfrule value="17">ܫܒܥܣܪ;</rbnfrule>
+                <rbnfrule value="18">ܬܡܢܥܣܪ;</rbnfrule>
+                <rbnfrule value="19">ܬܫܥܣܪ;</rbnfrule>
+                <rbnfrule value="20">[→%%spellout-numbering-m→ ܘ]ܥܣܪܝܢ;</rbnfrule>
+                <rbnfrule value="30">[→%%spellout-numbering-m→ ܘ]ܬܠܬܝܢ;</rbnfrule>
+                <rbnfrule value="40">[→%%spellout-numbering-m→ ܘ]ܐܪܒܥܝܢ;</rbnfrule>
+                <rbnfrule value="50">[→%%spellout-numbering-m→ ܘ]ܚܡܫܝܢ;</rbnfrule>
+                <rbnfrule value="60">[→%%spellout-numbering-m→ ܘ]ܐܫܬܝܢ;</rbnfrule>
+                <rbnfrule value="70">[→%%spellout-numbering-m→ ܘ]ܫܒܥܝܢ;</rbnfrule>
+                <rbnfrule value="80">[→%%spellout-numbering-m→ ܘ]ܬܡܢܝܢ;</rbnfrule>
+                <rbnfrule value="90">[→%%spellout-numbering-m→ ܘ]ܬܫܥܝܢ;</rbnfrule>
+                <rbnfrule value="100">ܡܐܐ[ ܘ→%%spellout-numbering-m→];</rbnfrule>                
+                <rbnfrule value="200">ܬܪܝܡܐܐ[ ܘ→%%spellout-numbering-m→];</rbnfrule>
+                <rbnfrule value="300">←%spellout-numbering← ܬܠܬܡܐܐ[ ܘ→%%spellout-numbering-m→];</rbnfrule>
+                <rbnfrule value="1000">ܐܠܦܐ[ ܘ→%%spellout-numbering-m→];</rbnfrule>
+                <rbnfrule value="2000">ܬܪܝܢ ܐܠܦ̈ܐ[ ܘ→%%spellout-numbering-m→];</rbnfrule>
+                <rbnfrule value="3000">←%spellout-numbering← ܬܠܬܐ ܐܠܦ̈ܐ[ ܘ→%%spellout-numbering-m→];</rbnfrule>
+                <rbnfrule value="11000" radix="1000">←%%spellout-numbering-m← ܐܠܦ̈ܐ[ ܘ→%%spellout-numbering-m→];</rbnfrule>
+                <rbnfrule value="1000000">ܡܠܝܘܢ[ ܘ→%%spellout-numbering-m→];</rbnfrule>
+                <rbnfrule value="2000000">←%%spellout-numbering-m← ܡܠܝܘܢ̈ܐ[ ܘ→%%spellout-numbering-m→];</rbnfrule>
+                <rbnfrule value="1000000000">ܒܠܝܘܢ[ ܘ→%%spellout-numbering-m→];</rbnfrule>
+                <rbnfrule value="2000000000">←%%spellout-numbering-m← ܒܠܝܘܢ̈ܐ[ ܘ→%%spellout-numbering-m→];</rbnfrule>
+                <rbnfrule value="1000000000000">ܬܪܠܝܘܢ[ ܘ→%%spellout-numbering-m→];</rbnfrule>
+                <rbnfrule value="2000000000000">←%%spellout-numbering-m← ܬܪܠܝܘܢ̈ܐ[ ܘ→%%spellout-numbering-m→];</rbnfrule>
+                <rbnfrule value="1000000000000000">ܟܒܐܕܪܠܝܘܢ[ ܘ→%%spellout-numbering-m→];</rbnfrule>
+                <rbnfrule value="2000000000000000">←%%spellout-numbering-m← ܟܒܐܕܪܠܝܘܢ̈ܐ[ ܘ→%%spellout-numbering-m→];</rbnfrule>
+                <rbnfrule value="1000000000000000000">=#,##0=;</rbnfrule>
+            </ruleset>
+            <ruleset type="ordinal-ones-feminine" access="private">
+                <rbnfrule value="1">ܩܕܡܝܬܐ ;</rbnfrule>
+                <rbnfrule value="2">=%spellout-ordinal-feminine=;</rbnfrule>
+                <rbnfrule value="11">ܚܕܥܣܝܪܝܬܐ;</rbnfrule>
+                <rbnfrule value="12">=%spellout-ordinal-feminine=;</rbnfrule>
+            </ruleset>
+            <ruleset type="spellout-ordinal-feminine">
+                <rbnfrule value="-x">ܡܪܝܡܢܝܬܐ →→;</rbnfrule>
+                <rbnfrule value="x.x">←← ܢܘܩܙܬܐ →→;</rbnfrule>
+                <rbnfrule value="0">ܣܦܝܩܬܐ;</rbnfrule>
+                <rbnfrule value="1">ܕܩܡܝܬܐ;</rbnfrule>
+                <rbnfrule value="2">ܬܪܝܢܝܬܐ;</rbnfrule>
+                <rbnfrule value="3">ܬܠܝܬܝܬܐ;</rbnfrule>
+                <rbnfrule value="4">ܪܒܝܥܝܬܐ;</rbnfrule>
+                <rbnfrule value="5">ܚܡܝܫܝܬܐ;</rbnfrule>
+                <rbnfrule value="6">ܐܫܝܬܝܬܐ;</rbnfrule>
+                <rbnfrule value="7">ܫܒܝܥܝܬܐ;</rbnfrule>
+                <rbnfrule value="8">ܬܡܝܢܝܬܐ;</rbnfrule>
+                <rbnfrule value="9">ܬܫܝܥܝܬܐ;</rbnfrule>
+                <rbnfrule value="10">ܥܣܝܪܝܬܐ;</rbnfrule>
+                <rbnfrule value="11">ܚܕܥܣܝܪܝܬܐ;</rbnfrule>
+                <rbnfrule value="12">ܬܪܥܣܝܪܝܬܐ;</rbnfrule>
+                <rbnfrule value="13">ܬܠܬܥܣܝܪܝܬܐ;</rbnfrule>
+                <rbnfrule value="14">ܐܪܒܥܣܝܪܝܬܐ;</rbnfrule>
+                <rbnfrule value="15">ܚܡܫܥܣܝܪܝܬܐ;</rbnfrule>
+                <rbnfrule value="16">ܐܫܬܥܣܝܪܝܬܐ;</rbnfrule>
+                <rbnfrule value="17">ܫܒܥܣܝܪܝܬܐ;</rbnfrule>
+                <rbnfrule value="18">ܬܡܢܥܣܝܪܝܬܐ;</rbnfrule>
+                <rbnfrule value="19">ܬܫܥܣܝܪܝܬܐ;</rbnfrule>
+                <rbnfrule value="20">ܥܣܪܝܢܝܬܐ;</rbnfrule>
+                <rbnfrule value="21">→%spellout-cardinal-feminine→ܥܣܪܝܢܝܬܐ ܘ;</rbnfrule>
+                <rbnfrule value="30">ܬܠܬܝܢܝܬܐ;</rbnfrule>
+                <rbnfrule value="31">→%spellout-cardinal-feminine→ܬܠܬܝܢܝܬܐ ܘ;</rbnfrule>
+                <rbnfrule value="40">ܐܪܒܥܝܢܝܬܐ;</rbnfrule>
+                <rbnfrule value="41">→%spellout-cardinal-feminine→ܐܪܒܥܝܢܝܬܐ ܘ;</rbnfrule>
+                <rbnfrule value="50">ܚܡܫܝܢܝܬܐ;</rbnfrule>
+                <rbnfrule value="51">→%spellout-cardinal-feminine→ܚܡܫܝܢܝܬܐ ܘ;</rbnfrule>
+                <rbnfrule value="60">ܐܫܬܝܢܝܬܐ;</rbnfrule>
+                <rbnfrule value="61">→%spellout-cardinal-feminine→ܐܫܬܝܢܝܬܐ ܘ;</rbnfrule>
+                <rbnfrule value="70">ܫܒܥܝܢܝܬܐ;</rbnfrule>
+                <rbnfrule value="71">→%spellout-cardinal-feminine→ܫܒܥܝܢܝܬܐ ܘ;</rbnfrule>
+                <rbnfrule value="80">ܬܡܢܝܢܝܬܐ;</rbnfrule>
+                <rbnfrule value="81">→%spellout-cardinal-feminine→ܬܡܢܝܢܝܬܐ ܘ;</rbnfrule>
+                <rbnfrule value="90">ܬܫܥܝܢܝܬܐ;</rbnfrule>
+                <rbnfrule value="91">→%spellout-cardinal-feminine→ܬܫܥܝܢܝܬܐ ܘ;</rbnfrule>
+                <rbnfrule value="100">ܐܡܝܬܐ[ ܘ→%spellout-cardinal-feminine→];</rbnfrule>
+                <rbnfrule value="200">ܬܪܝܡܝܬܐ[ ܘ→%spellout-cardinal-feminine→];</rbnfrule>
+                <rbnfrule value="300">←%spellout-numbering← ܐܡܝ̈ܐ[ ܘ→%spellout-cardinal-feminine→];</rbnfrule>
+                <rbnfrule value="1000">ܐܠܦܝܬܐ[ ܘ→%spellout-cardinal-feminine→];</rbnfrule>
+                <rbnfrule value="2000">ܬܪܝܢ ܐܠܦܝ̈ܐ[ ܘ→%spellout-cardinal-feminine→];</rbnfrule>
+                <rbnfrule value="3000">←%spellout-cardinal-feminine← ܐܠܦܝ̈ܐ[ ܘ→%spellout-cardinal-feminine→];</rbnfrule>
+                <rbnfrule value="11000" radix="1000">←%spellout-cardinal-feminine← ܐܠܦܝ̈ܐ[ ܘ→%spellout-cardinal-feminine→];</rbnfrule>
+                <rbnfrule value="1000000">ܡܠܝܘܢܝܬܐ[ ܘ→%spellout-cardinal-feminine→];</rbnfrule>
+                <rbnfrule value="2000000">←%spellout-cardinal-feminine← ܡܠܝܘܢܝ̈ܐ[ ܘ→%spellout-cardinal-feminine→];</rbnfrule>
+                <rbnfrule value="1000000000">ܒܠܝܘܢܝܬܐ[ ܘ→%spellout-cardinal-feminine→];</rbnfrule>
+                <rbnfrule value="2000000000">←%spellout-cardinal-feminine← ܒܠܝܘܢܝ̈ܐ[ ܘ→%spellout-cardinal-feminine→];</rbnfrule>
+                <rbnfrule value="1000000000000">ܬܪܠܝܘܢܝܬܐ[ ܘ→%spellout-cardinal-feminine→];</rbnfrule>
+                <rbnfrule value="2000000000000">←%spellout-cardinal-feminine← ܬܪܠܝܘܢܝ̈ܐ[ ܘ→%spellout-cardinal-feminine→];</rbnfrule>
+                <rbnfrule value="1000000000000000">ܟܒܐܕܪܠܝܘܢܝܬܐ[ ܘ→%spellout-cardinal-feminine→];</rbnfrule>
+                <rbnfrule value="2000000000000000">←%spellout-cardinal-feminine← ܟܒܐܕܪܠܝܘܢܝ̈ܐ[ ܘ→%spellout-cardinal-feminine→];</rbnfrule>
+                <rbnfrule value="1000000000000000000">=#,##0=;</rbnfrule>
+            </ruleset>
+            <ruleset type="ordinal-ones-masculine" access="private">
+                <rbnfrule value="1">ܩܕܡܝܐ ;</rbnfrule>
+                <rbnfrule value="2">=%spellout-ordinal-masculine=;</rbnfrule>
+                <rbnfrule value="11">ܚܕܥܣܝܪܝܐ;</rbnfrule>
+                <rbnfrule value="12">=%spellout-ordinal-masculine=;</rbnfrule>
+            </ruleset>
+            <ruleset type="spellout-ordinal-masculine">
+                <rbnfrule value="-x">ܡܪܝܡܢܐ →→;</rbnfrule>
+                <rbnfrule value="x.x">←← ܢܘܩܙܐ →→;</rbnfrule>
+                <rbnfrule value="0">ܣܦܝܩܐ;</rbnfrule>
+                <rbnfrule value="1">ܕܩܡܝܐ;</rbnfrule>
+                <rbnfrule value="2">ܬܪܝܢܐ;</rbnfrule>
+                <rbnfrule value="3">ܬܠܝܬܝܐ;</rbnfrule>
+                <rbnfrule value="4">ܪܒܝܥܝܐ;</rbnfrule>
+                <rbnfrule value="5">ܚܡܝܫܝܐ;</rbnfrule>
+                <rbnfrule value="6">ܐܫܝܬܝܐ;</rbnfrule>
+                <rbnfrule value="7">ܫܒܝܥܝܐ;</rbnfrule>
+                <rbnfrule value="8">ܬܡܝܢܝܐ;</rbnfrule>
+                <rbnfrule value="9">ܬܫܝܥܝܐ;</rbnfrule>
+                <rbnfrule value="10">ܥܣܝܪܝܐ;</rbnfrule>
+                <rbnfrule value="11">ܚܕܥܣܝܪܝܐ;</rbnfrule>
+                <rbnfrule value="12">ܬܪܥܣܝܪܝܐ;</rbnfrule>
+                <rbnfrule value="13">ܬܠܬܥܣܝܪܝܐ;</rbnfrule>
+                <rbnfrule value="14">ܐܪܒܥܣܝܪܝܐ;</rbnfrule>
+                <rbnfrule value="15">ܚܡܫܥܣܝܪܝܐ;</rbnfrule>
+                <rbnfrule value="16">ܐܫܬܥܣܝܪܝܐ;</rbnfrule>
+                <rbnfrule value="17">ܫܒܥܣܝܪܝܐ;</rbnfrule>
+                <rbnfrule value="18">ܬܡܢܥܣܝܪܝܐ;</rbnfrule>
+                <rbnfrule value="19">ܬܫܥܣܝܪܝܐ;</rbnfrule>
+                <rbnfrule value="20">ܥܣܪܝܢܝܐ;</rbnfrule>
+                <rbnfrule value="21">→%spellout-cardinal-masculine→ܥܣܪܝܢܝܐ ܘ;</rbnfrule>
+                <rbnfrule value="30">ܬܠܬܝܢܝܐ;</rbnfrule>
+                <rbnfrule value="31">→%spellout-cardinal-masculine→ܬܠܬܝܢܝܐ ܘ;</rbnfrule>
+                <rbnfrule value="40">ܐܪܒܥܝܢܝܐ;</rbnfrule>
+                <rbnfrule value="41">→%spellout-cardinal-masculine→ܐܪܒܥܝܢܝܐ ܘ;</rbnfrule>
+                <rbnfrule value="50">ܚܡܫܝܢܝܐ;</rbnfrule>
+                <rbnfrule value="51">→%spellout-cardinal-masculine→ܚܡܫܝܢܝܐ ܘ;</rbnfrule>
+                <rbnfrule value="60">ܐܫܬܝܢܝܐ;</rbnfrule>
+                <rbnfrule value="61">→%spellout-cardinal-masculine→ܐܫܬܝܢܝܐ ܘ;</rbnfrule>
+                <rbnfrule value="70">ܫܒܥܝܢܝܐ;</rbnfrule>
+                <rbnfrule value="71">→%spellout-cardinal-masculine→ܫܒܥܝܢܝܐ ܘ;</rbnfrule>
+                <rbnfrule value="80">ܬܡܢܝܢܝܐ;</rbnfrule>
+                <rbnfrule value="81">→%spellout-cardinal-masculine→ܬܡܢܝܢܝܐ ܘ;</rbnfrule>
+                <rbnfrule value="90">ܬܫܥܝܢܝܐ;</rbnfrule>
+                <rbnfrule value="91">→%spellout-cardinal-masculine→ܬܫܥܝܢܝܐ ܘ;</rbnfrule>
+                <rbnfrule value="100">ܐܡܝܐ[ ܘ→%spellout-cardinal-masculine→];</rbnfrule>
+                <rbnfrule value="200">ܬܪܝܡܝܐ[ ܘ→%spellout-cardinal-masculine→];</rbnfrule>
+                <rbnfrule value="300">←%spellout-numbering← ܐܡܝ̈ܐ[ ܘ→%spellout-cardinal-masculine→];</rbnfrule>
+                <rbnfrule value="1000">ܐܠܦܝܐ[ ܘ→%spellout-cardinal-masculine→];</rbnfrule>
+                <rbnfrule value="2000">ܬܪܝܢ ܐܠܦܝ̈ܐ[ ܘ→%spellout-cardinal-masculine→];</rbnfrule>
+                <rbnfrule value="3000">←%spellout-cardinal-masculine← ܐܠܦܝ̈ܐ[ ܘ→%spellout-cardinal-masculine→];</rbnfrule>
+                <rbnfrule value="11000" radix="1000">←%spellout-cardinal-masculine← ܐܠܦܝ̈ܐ[ ܘ→%spellout-cardinal-masculine→];</rbnfrule>
+                <rbnfrule value="1000000">ܡܠܝܘܢܝܐ[ ܘ→%spellout-cardinal-masculine→];</rbnfrule>
+                <rbnfrule value="2000000">←%spellout-cardinal-masculine← ܡܠܝܘܢܝ̈ܐ[ ܘ→%spellout-cardinal-masculine→];</rbnfrule>
+                <rbnfrule value="1000000000">ܒܠܝܘܢܝܐ[ ܘ→%spellout-cardinal-masculine→];</rbnfrule>
+                <rbnfrule value="2000000000">←%spellout-cardinal-masculine← ܒܠܝܘܢܝ̈ܐ[ ܘ→%spellout-cardinal-masculine→];</rbnfrule>
+                <rbnfrule value="1000000000000">ܬܪܠܝܘܢܝܐ[ ܘ→%spellout-cardinal-masculine→];</rbnfrule>
+                <rbnfrule value="2000000000000">←%spellout-cardinal-masculine← ܬܪܠܝܘܢܝ̈ܐ[ ܘ→%spellout-cardinal-masculine→];</rbnfrule>
+                <rbnfrule value="1000000000000000">ܟܒܐܕܪܠܝܘܢܝܐ[ ܘ→%spellout-cardinal-masculine→];</rbnfrule>
+                <rbnfrule value="2000000000000000">←%spellout-cardinal-masculine← ܟܒܐܕܪܠܝܘܢܝ̈ܐ[ ܘ→%spellout-cardinal-masculine→];</rbnfrule>
+                <rbnfrule value="1000000000000000000">=#,##0=;</rbnfrule>
+            </ruleset>
+        </rulesetGrouping>
+        <rulesetGrouping type="OrdinalRules">
+            <ruleset type="digits-ordinal">
+                <rbnfrule value="-x">−→→;</rbnfrule>
+                <rbnfrule value="0">=#,##0=;</rbnfrule>
+            </ruleset>
+        </rulesetGrouping>
+    </rbnf>
+</ldml>
+
